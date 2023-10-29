@@ -1,0 +1,39 @@
+{
+  "name": "react-responsive-navigation",
+  "version": "1.0.0",
+  "description": "A simple React.JS Responsive  Navigation with React Router and Styled Components.",
+  "keywords": [
+    "responsive  nav",
+    "styled components",
+    "react.js",
+    "react router",
+    "css3"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^4.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
