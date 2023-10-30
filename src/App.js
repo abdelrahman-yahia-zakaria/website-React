@@ -12,7 +12,7 @@ const Navigation = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0px 100px 0;
-  height: 140px;
+  height: 85px;
   margin-bottom: 60px;
   background: #f8f8f8;
 
