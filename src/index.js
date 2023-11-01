@@ -14,6 +14,9 @@ import "./index.css";
 const App = () => (
   <div>
     <Nav />
+
+
+    
     <div className="container">
       <Route exact={true} path="/" component={Home} />
       <Route exaxt path="/about" component={About} />

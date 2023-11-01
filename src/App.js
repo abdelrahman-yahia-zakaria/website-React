@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
+import "./App.css"
 
 // import { BurgerIcon } from './'
 import styled from "styled-components";
@@ -200,6 +201,8 @@ class Nav extends Component {
             </NavLink>
           </ul>
         </nav>
+        <div className="box-page">
+        </div>
       </Navigation>
     );
   }
