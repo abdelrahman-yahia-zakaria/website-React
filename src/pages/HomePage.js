@@ -1,12 +1,14 @@
-import React, { Fragment } from "react";
+import React from 'react';
 
-const HomePage = () => (
-  <Fragment>
-    <h1>ChatConnect مرحبا بكم في موقع </h1>
+const HomePage = () => {
+  return (
+    <div>
+    <h1>مرحبا بكم في موقع <p>ChatConnect</p></h1>
     <h2>.إنها تقنية رائعة تسمح لك ببناء واجهات مستخدم ديناميكية وقابلة للتوسع</h2>
-      <h2>استمتع بتطوير تطبيقات ويب رائعة باستخدام</h2>
-  </Fragment>
+      <h2>.استمتع بتطوير تطبيقات ويب رائعة باستخدام</h2>
+  </div>
   
 );
+  };
 
 export default HomePage;

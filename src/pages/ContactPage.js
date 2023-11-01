@@ -1,9 +1,10 @@
-import React, { Fragment } from "react";
+import React from 'react';
 
-const ContactPage = () => (
-  <Fragment>
+const ContactPage = () => {
+  return (
+    <div>
     <h1>Contact</h1>
-  </Fragment>
+  </div>
 );
-
+  };
 export default ContactPage;

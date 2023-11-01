@@ -1,9 +1,10 @@
-import React, { Fragment } from "react";
+import React from 'react';
 
-const AboutPage = () => (
-  <Fragment>
+const AboutPage = () => {
+  return (
+    <div>
     <h1>About</h1>
-  </Fragment>
+  </div>
 );
-
+  };
 export default AboutPage;
