@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
-import "./App.css"
 
 // import { BurgerIcon } from './'
 import styled from "styled-components";
@@ -154,7 +153,7 @@ const Navigation = styled.header`
   }
 `;
 
-class Nav extends Component {
+class App1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -174,7 +173,7 @@ class Nav extends Component {
       <Navigation>
         <div className="logo">
           <Link to="/">
-            <p>Hold the closing</p>
+           <p>ChatConnect</p>
             <em>
               <div className="letterhead">
                 <span className="name">Homepage</span>
@@ -201,11 +200,11 @@ class Nav extends Component {
             </NavLink>
           </ul>
         </nav>
-        <div className="box-page">
-        </div>
+        {/* <div className="box-page">
+        </div> */}
       </Navigation>
     );
   }
 }
 
-export default Nav;
+export default App1;

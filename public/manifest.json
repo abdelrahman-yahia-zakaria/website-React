@@ -1,6 +1,6 @@
 {
-  "short_name": "Hold the closing",
-  "name": "مسك الختام",
+  "short_name": "ChatConnect",
+  "name": "ChatConnect",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "icon.png",
+      "src": "ico.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon.png",
+      "src": "ico.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // NAVIGATION
-import Nav from "./App";
+import App1 from "./App";
 // PAGES
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
@@ -13,11 +13,11 @@ import "./index.css";
 
 const App = () => (
   <div>
-    <Nav />
+    <App1 />
 
 
     
-    <div className="container">
+    <div className="box-page">
       <Route exact={true} path="/" component={Home} />
       <Route exaxt path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
