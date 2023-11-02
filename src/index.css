@@ -26,7 +26,7 @@ object {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
-  background: url("/car4K.jpeg");
+  background: url("/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:100%100%;
