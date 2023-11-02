@@ -24,7 +24,7 @@ const Navigation = styled.header`
     padding-bottom: 30px;
     text-decoration: none;
 
-    p {
+    p2 {
       width: 500px;
       display: block;
     }
@@ -173,7 +173,7 @@ class App1 extends Component {
       <Navigation>
         <div className="logo">
           <Link to="/">
-           <p>ChatConnect</p>
+           <p2>ChatConnect</p2>
             <em>
               <div className="letterhead">
                 <span className="name">Homepage</span>
