@@ -9,7 +9,7 @@ import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
 
-import "./index.css";
+import "./App";
 
 const App = () => (
   <div>
@@ -17,11 +17,13 @@ const App = () => (
 
 
     
-    <div className="box-page">
+    <div class="screenFrame">
+    <div class="screenInset">
       <Route exact={true} path="/" component={Home} />
       <Route exaxt path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
     </div>
+  </div>
   </div>
 );
 

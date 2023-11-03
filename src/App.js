@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
+import "./App.css"
 
 // import { BurgerIcon } from './'
 import styled from "styled-components";
@@ -19,7 +20,8 @@ const Navigation = styled.header`
   .logo a {
     padding-top: 33px;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+
     clear: both;
     padding-bottom: 30px;
     text-decoration: none;
@@ -173,8 +175,9 @@ class App1 extends Component {
       <Navigation>
         <div className="logo">
           <Link to="/">
-           <p2>ChatConnect</p2>
+           <p2>ChatConnect.io</p2>
             <em>
+
               <div className="letterhead">
                 <span className="name">Homepage</span>
                 <span className="gray">.io</span>
@@ -200,8 +203,6 @@ class App1 extends Component {
             </NavLink>
           </ul>
         </nav>
-        {/* <div className="box-page">
-        </div> */}
       </Navigation>
     );
   }

@@ -1,0 +1,116 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+@font-face {
+  font-family: 'Decovar Regular24';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+}
+
+/* ==========================================================================
+   Responsive images and box padding
+   ========================================================================== */
+
+img,
+object {
+  display: block;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-kit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  background: #090d00;
+  margin: 0
+}
+
+.container {
+  width: 80%;
+  margin: 60px auto;
+
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.box-page {
+  position: fixed;
+  border-radius: 2%;
+  background-color: #e6e6e6;
+  width: 95%;
+  height: 80%;
+  top: 15%;
+  left: 2.5%;
+  text-align: end;
+  font-size: 0.5em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+p {
+  margin: 10px;
+  font-family: "Decovar Regular24";
+  font-variation-settings: 'INLN' 400, 'SWRM' 1000;
+  font-weight: 400;
+  color: #154200;
+
+}
+
+.screenFrame {
+  position: absolute;
+  width: 95%;
+  height: 80%;
+  top: 13%;
+  left: 2.5%;
+  background: #dbdbdb;
+  background-image: linear-gradient(#e4dfdf 3%, #ffffff 9%);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-right: 3px solid #cacab3;
+  border-left: 3px solid #cacab3;
+  border-bottom: 5px solid #cacab3;
+  box-shadow: inset 4px -2px 4px #888, inset -4px -2px 4px #888;
+  text-align: end;
+  font-size: 0.5em;
+  font-weight: 600;
+}
+
+.screenInset {
+  position: absolute;
+  width: 95%;
+  height: 80%;
+  top: 13%;
+  left: 2.5%;
+  background-image: linear-gradient(to right, #b9b7b7, #b4b2b2 50%, #9b9595);
+  border-radius: 30px;
+  border-left: 2px solid #333;
+  box-shadow: inset 2px -1px 4px #333, inset -2px -1px 4px #333,
+    inset -2px 0px 4px #000;
+}
