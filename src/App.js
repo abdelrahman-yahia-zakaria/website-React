@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
-import "./App.css"
+import "./App.css";
 
 // import { BurgerIcon } from './'
 import styled from "styled-components";
@@ -20,11 +20,10 @@ const Navigation = styled.header`
   .logo a {
     padding-top: 33px;
     display: flex;
-    // flex-direction: column;
-
     clear: both;
     padding-bottom: 30px;
     text-decoration: none;
+    font-family: "Odibee Sans", cursive;
 
     p2 {
       width: 500px;
@@ -43,7 +42,7 @@ const Navigation = styled.header`
       .letterhead {
         display: inline-block;
         line-height: 260%;
-        float: left;
+        font-family: "Odibee Sans", cursive;
       }
     }
   }
@@ -159,13 +158,13 @@ class App1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isExpanded: false
+      isExpanded: false,
     };
   }
   handleToggle(e) {
     e.preventDefault();
     this.setState({
-      isExpanded: !this.state.isExpanded
+      isExpanded: !this.state.isExpanded,
     });
   }
   render() {
@@ -175,21 +174,23 @@ class App1 extends Component {
       <Navigation>
         <div className="logo">
           <Link to="/">
-           <p2>ChatConnect.io</p2>
+            <p2>ChatConnect.io</p2>
             <em>
-
-              <div className="letterhead">
-                <span className="name">Homepage</span>
-                <span className="gray">.io</span>
+              <div className="loader">
+                <div className="letterhead">
+                  <span className="name">Homepage</span>
+                  <span className="gray">.io</span>
+                </div>
               </div>
             </em>
           </Link>
         </div>
+
         <nav className="nav">
           <i
             className="fa fa-bars"
             aria-hidden="true"
-            onClick={e => this.handleToggle(e)}
+            onClick={(e) => this.handleToggle(e)}
           />
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <NavLink activeClassName="active" to="/">

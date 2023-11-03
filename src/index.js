@@ -14,16 +14,13 @@ import "./App";
 const App = () => (
   <div>
     <App1 />
-
-
-    
     <div class="screenFrame">
-    <div class="screenInset">
-      <Route exact={true} path="/" component={Home} />
-      <Route exaxt path="/about" component={About} />
-      <Route exact path="/contact" component={Contact} />
+      <div class="screenInset">
+        <Route exact={true} path="/" component={Home} />
+        <Route exaxt path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+      </div>
     </div>
-  </div>
   </div>
 );
 

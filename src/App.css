@@ -32,11 +32,15 @@ object {
 
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
-  background: #090d00;
-  margin: 0
-}
+  background: rgb(34, 193, 195);
+    background: linear-gradient(0deg,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(253, 187, 45, 1) 100%);
+    font-family: "Odibee Sans", cursive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
 
 .container {
   width: 80%;
@@ -53,7 +57,7 @@ h1 {
   text-align: center;
 }
 
-.box-page {
+/* .box-page {
   position: fixed;
   border-radius: 2%;
   background-color: #e6e6e6;
@@ -66,6 +70,7 @@ h1 {
   font-weight: 600;
 }
 
+*/
 h2 {
   font-size: 3em;
   font-weight: 600;
@@ -76,10 +81,9 @@ h2 {
 
 p {
   margin: 10px;
-  font-family: "Decovar Regular24";
+  font-family: "Odibee Sans", cursive;
   font-variation-settings: 'INLN' 400, 'SWRM' 1000;
   font-weight: 400;
-  color: #154200;
 
 }
 
@@ -113,4 +117,26 @@ p {
   border-left: 2px solid #333;
   box-shadow: inset 2px -1px 4px #333, inset -2px -1px 4px #333,
     inset -2px 0px 4px #000;
+}
+.logo2 {
+  position: absolute;
+  top: 320px;
+  left: 1165px;
+  width: 240px;
+  height: 60px;
+  padding-left: 10px;
+  background: #222;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px;
+  transform: rotate(90deg);
+}
+
+.model {
+  clear: both;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #c22;
+  margin: 18px 5px;
+  text-shadow: 0 2px 1px #111, -1px -1px #333;
 }
