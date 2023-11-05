@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from "react";
 
 const HomePage = () => {
   return (
     <div>
-      <div className="image">
+      <div>
         <h1>
           مرحبا بكم في موقع <p>ChatConnect</p>
         </h1>
@@ -14,6 +14,6 @@ const HomePage = () => {
       </div>
     </div>
   );
-  };
+};
 
 export default HomePage;
