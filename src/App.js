@@ -173,6 +173,7 @@ class App1 extends Component {
     return (
       <Navigation>
         <div className="logo">
+          <img className="icon-page" src="./ico.png"></img>
           <Link to="/">
             <p2>ChatConnect.io</p2>
             <em>
