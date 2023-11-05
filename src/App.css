@@ -82,15 +82,14 @@ h2 {
 P {
   margin: 10px;
   font-family: "Odibee Sans", cursive;
-  font-variation-settings: 'INLN' 400, 'SWRM' 1000;
-  font-weight: 400;
-
+  font-variation-settings: 'INLN' 400, 'SWRM' 1000; 
+font-weight: 400;
 }
 
 .screenFrame {
   position: absolute;
   width: 95%;
-  height: 80%;
+  height: 150%;
   top: 13%;
   left: 2.5%;
   background: #dbdbdb;
@@ -109,8 +108,8 @@ P {
 .screenInset {
   position: absolute;
   width: 95%;
-  height: 80%;
-  top: 13%;
+  height: 50%;
+  top: 50px;
   left: 2.5%;
   background-image: linear-gradient(to right, #b9b7b7, #b4b2b2 50%, #9b9595);
   border-radius: 30px;
