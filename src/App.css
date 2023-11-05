@@ -79,7 +79,7 @@ h2 {
   margin-right: 50px;
 }
 
-p {
+P {
   margin: 10px;
   font-family: "Odibee Sans", cursive;
   font-variation-settings: 'INLN' 400, 'SWRM' 1000;
@@ -139,4 +139,8 @@ p {
   color: #c22;
   margin: 18px 5px;
   text-shadow: 0 2px 1px #111, -1px -1px #333;
+}
+.image {
+  background: url("/public/ico.png");
+  
 }
