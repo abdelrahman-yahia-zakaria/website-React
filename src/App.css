@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 @font-face {
-  font-family: 'Decovar Regular24';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+  font-family: "Decovar Regular24";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf");
 }
 
 /* ==========================================================================
@@ -17,7 +17,6 @@ object {
   border: 0;
   max-width: 100%;
   height: auto;
-
 }
 
 * {
@@ -29,23 +28,22 @@ object {
   -webkit-font-smoothing: antialiased;
 }
 
-
-
 body {
   background: rgb(34, 193, 195);
-    background: linear-gradient(0deg,
-        rgba(34, 193, 195, 1) 0%,
-        rgba(253, 187, 45, 1) 100%);
-    font-family: "Odibee Sans", cursive;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: "Odibee Sans", cursive;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 .container {
   width: 80%;
   margin: 60px auto;
-
 }
 
 h1 {
@@ -82,8 +80,11 @@ h2 {
 P {
   margin: 10px;
   font-family: "Odibee Sans", cursive;
+
   font-variation-settings: 'INLN' 400, 'SWRM' 1000; 
 font-weight: 400;
+  font-variation-settings: "INLN" 400, "SWRM" 1000;
+  font-weight: 400;
 }
 
 .screenFrame {
@@ -140,6 +141,12 @@ font-weight: 400;
   text-shadow: 0 2px 1px #111, -1px -1px #333;
 }
 .image {
-  background: url("/public/ico.png");
-  
+  background: url("../public/ico.png");
+}
+
+.icon-page {
+  position: fixed;
+  width: 40px;
+  left: 53px;
+  top: 12px;
 }
