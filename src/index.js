@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.css";
 
 // NAVIGATION
 import App1 from "./App";
@@ -14,11 +15,13 @@ import "./App";
 const App = () => (
   <div>
     <App1 />
-    <div class="screenFrame">
-      <div class="screenInset">
-        <Route exact={true} path="/" component={Home} />
-        <Route exaxt path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
+    <div className="image">
+      <div class="screenFrame">
+        <div class="screenInset">
+          <Route exact={true} path="/" component={Home} />
+          <Route exaxt path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+        </div>
       </div>
     </div>
   </div>
