@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
 import "./App.css";
 
 // import { BurgerIcon } from './'
@@ -173,12 +174,13 @@ class App1 extends Component {
     return (
       <Navigation>
         <div className="logo">
+          <FaHome/>
           <img className="icon-page" src="./ico.png"></img>
           <Link to="/">
             <p2>ChatConnect.io</p2>
             <em>
               <div className="loader">
-                <div className="letterhead">
+                  <div className="letterhead">
                   <span className="name">Homepage</span>
                   <span className="gray">.io</span>
                 </div>
