@@ -11,6 +11,7 @@ import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
 
 import "./App";
+import ChatConnect from "./pages/ChatConnect";
 
 const App = () => (
   <div>
@@ -21,6 +22,7 @@ const App = () => (
           <Route exact={true} path="/" component={Home} />
           <Route exaxt path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/ChatConnect.io" component={ChatConnect} />
         </div>
       </div>
     </div>

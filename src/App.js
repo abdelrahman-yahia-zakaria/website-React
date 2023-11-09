@@ -174,14 +174,14 @@ class App1 extends Component {
     return (
       <Navigation>
         <div className="logo">
-          <FaHome/>
+          <FaHome />
           <img className="icon-page" src="./ico.png"></img>
           <Link to="/">
-          <img className="icon-page" src="./ico.png"></img>
+            <img className="icon-page" src="./ico.png"></img>
             <p2>ChatConnect.io</p2>
             <em>
               <div className="loader">
-                  <div className="letterhead">
+                <div className="letterhead">
                   <span className="name">Homepage</span>
                   <span className="gray">.io</span>
                 </div>
@@ -205,6 +205,9 @@ class App1 extends Component {
             </NavLink>
             <NavLink activeClassName="active" to="/contact">
               <li>Contact</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/ChatConnect.io">
+              <li>Chat</li>
             </NavLink>
           </ul>
         </nav>
