@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
 import "./App.css";
 
 // import { BurgerIcon } from './'
@@ -26,7 +25,7 @@ const Navigation = styled.header`
     text-decoration: none;
     font-family: "Odibee Sans", cursive;
 
-    p2 {
+    h3 {
       width: 500px;
       display: block;
     }
@@ -173,19 +172,16 @@ class App1 extends Component {
 
     return (
       <Navigation>
-        <div className="logo">
-          <FaHome/>
+        <div className={`logo ${isExpanded ? "logo1" : ""}`}>
+          
           <img className="icon-page" src="./ico.png"></img>
           <Link to="/">
-          <img className="icon-page" src="./ico.png"></img>
-            <p2>ChatConnect.io</p2>
+            <h3>ChatConnect.io</h3>
             <em>
-              <div className="loader">
                   <div className="letterhead">
                   <span className="name">Homepage</span>
                   <span className="gray">.io</span>
                 </div>
-              </div>
             </em>
           </Link>
         </div>

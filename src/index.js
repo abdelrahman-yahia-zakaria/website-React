@@ -16,8 +16,8 @@ const App = () => (
   <div>
     <App1 />
     <div className="image">
-      <div class="screenFrame">
-        <div class="screenInset">
+      <div className="screenFrame">
+        <div className="screenInset">
           <Route exact={true} path="/" component={Home} />
           <Route exaxt path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
