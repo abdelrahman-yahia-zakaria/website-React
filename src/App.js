@@ -25,7 +25,7 @@ const Navigation = styled.header`
     text-decoration: none;
     font-family: "Odibee Sans", cursive;
 
-    p2 {
+    h3 {
       width: 500px;
       display: block;
     }
@@ -172,16 +172,14 @@ class App1 extends Component {
 
     return (
       <Navigation>
-        <div className="logo">
-          <Link to="/">
+        <div className={`logo ${isExpanded ? "logo1" : ""}`}>
           <img className="icon-page" src="./ico.png"></img>
-            <p2>ChatConnect.io</p2>
+          <Link to="/">
+            <h3>ChatConnect.io</h3>
             <em>
-              <div className="loader">
-                <div className="letterhead">
-                  <span className="name">Homepage</span>
-                  <span className="gray">.io</span>
-                </div>
+              <div className="letterhead">
+                <span className="name">Homepage</span>
+                <span className="gray">.io</span>
               </div>
             </em>
           </Link>
@@ -202,6 +200,9 @@ class App1 extends Component {
             </NavLink>
             <NavLink activeClassName="active" to="/contact">
               <li>Contact</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/ChatConnect.io">
+              <li>Chat</li>
             </NavLink>
           </ul>
         </nav>

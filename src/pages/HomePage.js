@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaHome } from "react-icons/fa";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
         </h2>
         <h2>..استمتع بتطوير تطبيقات ويب رائعة باستخدام</h2>
       </div>
+      <FaHome/>
     </div>
   );
 };

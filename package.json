@@ -12,9 +12,14 @@
   "main": "src/index.js",
   "dependencies": {
     "-": "^0.0.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "babel": "^6.23.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.0"
@@ -34,7 +39,8 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 Microsoft Edge version"
     ]
   },
   "devDependencies": {

@@ -9,6 +9,7 @@ import App1 from "./App";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
+import ChatConnect from "./pages/ChatConnect"
 
 import "./App";
 
@@ -16,11 +17,12 @@ const App = () => (
   <div>
     <App1 />
     <div className="image">
-      <div class="screenFrame">
-        <div class="screenInset">
+      <div className="screenFrame">
+        <div className="screenInset">
           <Route exact={true} path="/" component={Home} />
           <Route exaxt path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/ChatConnect.io" component={ChatConnect}/>
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cairo:wght@500;600&display=swap');
 
 @font-face {
   font-family: "Decovar Regular24";
@@ -49,8 +51,8 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-top: 50px;
+  font-family: 'Cairo', sans-serif;
+    margin-top: 50px;
   margin-right: 50px;
   text-align: center;
 }
@@ -72,15 +74,14 @@ h1 {
 h2 {
   font-size: 3em;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
   margin-top: 50px;
   margin-right: 50px;
+  font-family: 'Cairo', sans-serif;
 }
 
 P {
   margin: 10px;
-  font-family: "Odibee Sans", cursive;
-
+  font-family: 'Cairo', sans-serif;
   font-variation-settings: 'INLN' 400, 'SWRM' 1000; 
 font-weight: 400;
   font-variation-settings: "INLN" 400, "SWRM" 1000;
@@ -140,14 +141,9 @@ font-weight: 400;
   margin: 18px 5px;
   text-shadow: 0 2px 1px #111, -1px -1px #333;
 }
-.image {
-  background: url("../public/ico.png");
-}
-
 .icon-page {
   position: fixed;
   width: 40px;
   left: 53px;
   top: 12px;
 }
- 
