@@ -147,3 +147,7 @@ font-weight: 400;
   left: 53px;
   top: 12px;
 }
+
+.Loading {
+  position: absolute;
+}
